@@ -12,4 +12,4 @@ clustering methods
 
 If you use any of the algorithms implemented in this package, please cite the following paper:
 
-Mehmet Gonen and Adam A. Margolin. Localized Data Fusion for Kernel k-Means Clustering with Application to Cancer Biology. Advances in Neural Information Processing Systems 27 (NIPS 2014), Montreal, Québec, Canada, 2014.
+Mehmet Gonen and Adam A. Margolin. Localized Data Fusion for Kernel k-Means Clustering with Application to Cancer Biology. Advances in Neural Information Processing Systems 27 (NIPS 2014), Montréal, Québec, Canada, 2014.
