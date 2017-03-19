@@ -1,14 +1,20 @@
-This repository contains Matlab implementations of the clustering algorithms in "Localized Data Fusion for Kernel k-Means Clustering with Application to Cancer Biology", which is appearing in Advances in Neural Information Processing Systems 27 (NIPS 2014).
+This repository contains Matlab and R implementations of the clustering algorithms in "Localized Data Fusion for Kernel k-Means Clustering with Application to Cancer Biology", which is appearing in Advances in Neural Information Processing Systems 27 (NIPS 2014).
 
-demo_kernel_kmeans.m file shows how to use the kernel k-means clustering algorithm.
-demo_multiple_kernel_kmeans.m file shows how to use the multiple kernel k-means clustering algorithm.
-demo_localized_multiple_kernel_kmeans.m file shows how to use the localized multiple kernel k-means clustering algorithm.
+demo_kernel_kmeans.m file shows how to use the kernel k-means clustering algorithm in Matlab.
+demo_kernel_kmeans.R file shows how to use the kernel k-means clustering algorithm in R.
+demo_multiple_kernel_kmeans.m file shows how to use the multiple kernel k-means clustering algorithm in Matlab.
+demo_multiple_kernel_kmeans.R file shows how to use the multiple kernel k-means clustering algorithm in R.
+demo_localized_multiple_kernel_kmeans.m file shows how to use the localized multiple kernel k-means clustering algorithm in Matlab.
+demo_localized_multiple_kernel_kmeans.R file shows how to use the localized multiple kernel k-means clustering algorithm in R.
 
 clustering methods
 ------------------
-* kkmeans_train.m => training procedure for kernel k-means
-* mkkmeans_train.m => training procedure for multiple kernel k-means (requries Mosek optimization software)
-* lmkkmeans_train.m => training procedure for localized multiple kernel k-means (requries Mosek optimization software)
+* kkmeans_train.m => training procedure for kernel k-means in Matlab
+* kkmeans_train.R => training procedure for kernel k-means in R
+* mkkmeans_train.m => training procedure for multiple kernel k-means in Matlab (requries Mosek optimization software)
+* mkkmeans_train.R => training procedure for multiple kernel k-means in R (requries Mosek optimization software)
+* lmkkmeans_train.m => training procedure for localized multiple kernel k-means in Matlab (requries Mosek optimization software)
+* lmkkmeans_train.R => training procedure for localized multiple kernel k-means in R (requries Mosek optimization software)
 
 If you use any of the algorithms implemented in this repository, please cite the following paper:
 

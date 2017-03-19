@@ -8,7 +8,7 @@ parameters.cluster_count = 2;
 parameters.iteration_count = 10;
 
 %initialize the kernels
-K = ??; %should be an N x N X P matrix containing similarity values between samples
+K = ??; %should be an N x N x P matrix containing similarity values between samples
 
 %perform training
 state = lmkkmeans_train(K, parameters);
