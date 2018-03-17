@@ -1,5 +1,3 @@
-# Mehmet Gonen (mehmet.gonen@gmail.com)
-
 library(Rmosek)
 
 lmkkmeans_train <- function(Km, parameters) {

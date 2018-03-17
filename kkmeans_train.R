@@ -1,5 +1,3 @@
-# Mehmet Gonen (mehmet.gonen@gmail.com)
-
 kkmeans_train <- function(K, parameters) {
   state <- list()
   state$time <- system.time({

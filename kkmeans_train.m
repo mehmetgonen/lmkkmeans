@@ -1,5 +1,3 @@
-% Mehmet Gonen (mehmet.gonen@gmail.com)
-
 function state = kkmeans_train(K, parameters)
     tic;
     opt.disp = 0;

@@ -1,5 +1,3 @@
-% Mehmet Gonen (mehmet.gonen@gmail.com)
-
 function state = mkkmeans_train(Km, parameters)
     tic;
     P = size(Km, 3);
