@@ -1,4 +1,5 @@
 library(Rmosek)
+library(Matrix) # contains the function Matrix
 
 lmkkmeans_train <- function(Km, parameters) {
   state <- list()
